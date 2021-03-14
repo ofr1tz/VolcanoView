@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Volcano View</title>
+    <link rel="icon" href="/favicon.png" sizes=32x32>
+	<link rel="icon" href="/favicon192.png" sizes=192x192>
+    <link rel="stylesheet" href="css/ol-6.3.1.css" type="text/css" />
+    <link rel="stylesheet" href="css/ol-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/ol-6.3.1.js"></script> 
+	<script src="js/ol-popup.js">// popup module for OpenLayers, source: https://github.com/walkermatt/ol-popup</script>
+  </head>
+  
+  <body>
+	<div id = 'map' class = 'map'>
+    	<div id = 'topright'>
+	    	<svg id = 'radar' viewBox="0 0 100 100">
+	    		<circle class = "ring" id = "ring" cx="50" cy="50" r="40" fill="transparent"></circle>
+	    		<circle class = "volcano" id = "nyiragongo" r = 4></circle>
+	    		<circle class = "volcano" id = "nyamuragira" r = 4></circle>
+	    		<circle class = "volcano" id = "mikeno" r = 4></circle>
+	    		<circle class = "volcano" id = "karisimbi" r = 4></circle>
+	    		<circle class = "volcano" id = "bisoke" r = 4></circle>
+	    		<circle class = "volcano" id = "sabyinyo" r = 4></circle>
+	    		<circle class = "volcano" id = "gahinga" r = 4></circle>
+	    		<circle class = "volcano" id = "muhabura" r = 4></circle>
+	    	</svg>
+			<div id = 'legend'>
+    			<img src = 'https://tomcat.oliverfritz.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=volcano-view:Nyiragongo&legend_options=fontAntiAliasing:true;fontColor:0x555555;fontSize:10'/-->
+			</div>
+	    </div>
+    </div>
+
+	<script src="js/volcano-view.js"></script>		
+  
+  </body>
+</html>

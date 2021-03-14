@@ -1,0 +1,75 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Verdana, Arial, Sans-Serif;
+}	
+
+.map {
+	height: 100%;
+	width: 100%;
+}
+
+.ol-scale-line  {
+	left: unset;
+	right: 20px;
+}	
+
+div#topright {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+svg#radar {
+	position: absolute;
+	right: 0px;
+	top: 157px;
+	height: 89px;
+	width: 89px;
+	z-index:10000;
+}
+
+circle.ring {
+	stroke: rgba(0,60,136,.3);
+	stroke-width: 2;
+}
+
+circle.volcano {
+	stroke-width: 1;
+	stroke: "transparent";
+	fill-opacity: .5;
+	fill: "transparent";
+}
+
+#legend {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index:10000;
+}
+
+.ol-popup {
+	opacity: .8;
+}
+
+.ol-popup h2 {
+	font-size: 10pt;
+}
+
+.ol-popup p {
+	font-size: 8pt;
+}
+
+.ol-attribution {
+	font-size: xx-small;
+}
+		
+/*.ol-scale-line {
+	background: rgba(0,60,136,.3);
+	border-radius: 4px;
+	bottom: 30px;
+	padding: 2px;
+	position: absolute;
+}*/

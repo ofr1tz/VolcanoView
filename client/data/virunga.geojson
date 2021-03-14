@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "virunga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "309204570", "name": "Karisimbi", "ele": 4507.0 }, "geometry": { "type": "Point", "coordinates": [ 29.4513246, -1.5070151 ] } },
+{ "type": "Feature", "properties": { "osm_id": "309204564", "name": "Mikeno", "ele": 4437.0 }, "geometry": { "type": "Point", "coordinates": [ 29.4197719, -1.4646106 ] } },
+{ "type": "Feature", "properties": { "osm_id": "309205852", "name": "Muhabura", "ele": 4127.0 }, "geometry": { "type": "Point", "coordinates": [ 29.6779114, -1.3830082 ] } },
+{ "type": "Feature", "properties": { "osm_id": "310987482", "name": "Bisoke", "ele": 3711.0 }, "geometry": { "type": "Point", "coordinates": [ 29.4849157, -1.4588241 ] } },
+{ "type": "Feature", "properties": { "osm_id": "309205255", "name": "Sabyinyo", "ele": 3645.0 }, "geometry": { "type": "Point", "coordinates": [ 29.5913114, -1.3896398 ] } },
+{ "type": "Feature", "properties": { "osm_id": "310988033", "name": "Gahinga", "ele": 3474.0 }, "geometry": { "type": "Point", "coordinates": [ 29.6451485, -1.3864178 ] } },
+{ "type": "Feature", "properties": { "osm_id": "309205211", "name": "Nyiragongo", "ele": 3470.0 }, "geometry": { "type": "Point", "coordinates": [ 29.2498235, -1.5224346 ] } },
+{ "type": "Feature", "properties": { "osm_id": "435509578", "name": "Nyamuragira", "ele": 3058.0 }, "geometry": { "type": "Point", "coordinates": [ 29.2030237, -1.4122704 ] } }
+]
+}
