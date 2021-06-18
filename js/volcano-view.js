@@ -204,7 +204,7 @@
 				var coords = f.getGeometry().getCoordinates();
 				var name = f.get('name');
 				var ele = f.get('ele');				
-				popup.show(coords, '<div><h2>'+name+' ('+ele+'m)</h2><img src="img/'+name+'.png" alt="'+name+'" width="100px" height="100px"><p>Click to show/hide viewshed.</p></div>');
+				popup.show(coords, '<div><h2>'+name+' ('+ele+'m)</h2><p>Click to show/hide viewshed.</p><img src="img/'+name+'.png" alt="'+name+'" width="125px" height="125px"></div>');
 			});
 		});	
 
