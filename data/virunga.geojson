@@ -9,7 +9,7 @@
 { "type": "Feature", "properties": { "osm_id": "310987482", "name": "Bisoke", "ele": 3711.0 }, "geometry": { "type": "Point", "coordinates": [ 29.4849157, -1.4588241 ] } },
 { "type": "Feature", "properties": { "osm_id": "309205255", "name": "Sabyinyo", "ele": 3645.0 }, "geometry": { "type": "Point", "coordinates": [ 29.5913114, -1.3896398 ] } },
 { "type": "Feature", "properties": { "osm_id": "310988033", "name": "Gahinga", "ele": 3474.0 }, "geometry": { "type": "Point", "coordinates": [ 29.6451485, -1.3864178 ] } },
-{ "type": "Feature", "properties": { "osm_id": "309205211", "name": "Nyiragongo", "ele": 3470.0 }, "geometry": { "type": "Point", "coordinates": [ 29.2498235, -1.5224346 ] } },
+{ "type": "Feature", "properties": { "osm_id": "309205211", "name": "Nyiragongo", "ele": 3470.0 }, "geometry": { "type": "Point", "coordinates": [ 29.2499483, -1.5214482 ] } },
 { "type": "Feature", "properties": { "osm_id": "435509578", "name": "Nyamuragira", "ele": 3058.0 }, "geometry": { "type": "Point", "coordinates": [ 29.2030237, -1.4122704 ] } }
 ]
 }

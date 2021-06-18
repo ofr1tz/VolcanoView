@@ -2,4 +2,8 @@ processing/*.Rproj
 processing/.Rproj.user
 processing/.Rdata
 processing/.Rhistory
+processing/junk
+processing/temp
+processing/srtm.rds
 .Rproj.user
+
