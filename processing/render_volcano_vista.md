@@ -71,3 +71,12 @@ volcano <- virunga %>%
 Resulting images:
 
 <img src="../img/Karisimbi.png" width="12.5%" /><img src="../img/Mikeno.png" width="12.5%" /><img src="../img/Muhabura.png" width="12.5%" /><img src="../img/Bisoke.png" width="12.5%" /><img src="../img/Sabyinyo.png" width="12.5%" /><img src="../img/Gahinga.png" width="12.5%" /><img src="../img/Nyiragongo.png" width="12.5%" /><img src="../img/Nyamuragira.png" width="12.5%" />
+
+Attribution:
+
+\[1\] “Elevation data sources: 3DEP, SRTM, and GMTED2010 content
+courtesy of the U.S. Geological Survey and ETOPO1 content courtesy of
+U.S. National Oceanic and Atmospheric Administration - via the {elevatr}
+package; Overlay datasources: Tiles © Esri — Source: Esri, i-cubed,
+USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and
+the GIS User Community - via the {maptiles} package”

@@ -17,7 +17,9 @@
 		var osm = new ol.layer.Tile({
           	source: new ol.source.OSM({
           		url: 'https://{a-c}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-				attributions: 'Basemap: &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution" target="_blank">Carto</a> |'
+				attributions: 
+					'Basemap: &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution" target="_blank">Carto</a> |' +
+					'Volcano vistas: see <a href="https://github.com/ofr1tz/VolcanoView/blob/master/processing/render_volcano_vista.md" target="_blank">Github doc</a>'
           	})
         });
 
@@ -103,7 +105,7 @@
 						'WIDTH': 256, 'HEIGHT': 256,
 						'CRS': 'EPSG:3857'
 					},
-					attributions: 'Viewsheds derived from <a href="https://doi.org/10.5066/F7PR7TFT" target="_blank">SRTM DEM',
+					attributions: '| Viewsheds derived from <a href="https://doi.org/10.5066/F7PR7TFT" target="_blank">SRTM DEM',
 					serverType: 'geoserver',
 					transition: 0, 
 					crossOrigin: 'anonymous'

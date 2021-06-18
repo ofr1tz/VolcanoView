@@ -49,3 +49,9 @@ volcano <- virunga %>%
 #' Resulting images:
 #+ r show, figures-side, fig.show = "hold", out.width = "12.5%", echo = F
 knitr::include_graphics(glue("../img/{virunga$name}.png"))
+
+#' Attribution:
+#+ r, echo = F, results = "asis"
+v <- virunga[1,]
+plot_3d_vista(lat = v$lat, lon = v$lon, radius = 1) %>% 
+	attr("attribution")
