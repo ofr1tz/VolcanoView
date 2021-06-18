@@ -52,10 +52,16 @@ render_volcano_vista = function(volcano, name) {
         lat = volcano$lat, lon = volcano$lon,
         baseshape = "circle", radius = volcano$ele*.6,
         phi = 20, theta = 0, zscale = 5, zoom = .6,
-        windowsize = 200
+        background = "#F8F8FF",
+        windowsize = 150
     )
 
     render_snapshot(filename = glue("../img/{name}.png"), clear = TRUE)
+    
+    # image_read(target) %>%
+    #   image_transparent("white", fuzz = 30) %>%
+    #   image_write(target)
+    
 }
 ```
 
