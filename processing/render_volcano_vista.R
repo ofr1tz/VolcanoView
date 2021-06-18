@@ -52,5 +52,5 @@ volcano <- virunga %>%
 	group_walk(render_volcano_vista)
 
 #' Resulting images:
-#+ r show, figures-side, fig.show = "hold", out.width = "25%", echo = F
+#+ r show, figures-side, fig.show = "hold", out.width = "12.5%", echo = F
 knitr::include_graphics(glue("../img/{virunga$name}.png"))

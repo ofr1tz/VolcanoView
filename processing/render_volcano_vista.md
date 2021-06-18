@@ -75,4 +75,4 @@ volcano <- virunga %>%
 
 Resulting images:
 
-<img src="../img/Karisimbi.png" width="25%" /><img src="../img/Mikeno.png" width="25%" /><img src="../img/Muhabura.png" width="25%" /><img src="../img/Bisoke.png" width="25%" /><img src="../img/Sabyinyo.png" width="25%" /><img src="../img/Gahinga.png" width="25%" /><img src="../img/Nyiragongo.png" width="25%" /><img src="../img/Nyamuragira.png" width="25%" />
+<img src="../img/Karisimbi.png" width="12.5%" /><img src="../img/Mikeno.png" width="12.5%" /><img src="../img/Muhabura.png" width="12.5%" /><img src="../img/Bisoke.png" width="12.5%" /><img src="../img/Sabyinyo.png" width="12.5%" /><img src="../img/Gahinga.png" width="12.5%" /><img src="../img/Nyiragongo.png" width="12.5%" /><img src="../img/Nyamuragira.png" width="12.5%" />
