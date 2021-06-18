@@ -38,11 +38,6 @@ render_volcano_vista = function(volcano, name) {
 	)
 
 	render_snapshot(filename = glue("../img/{name}.png"), clear = TRUE)
-	
-	# image_read(target) %>%
-	# 	image_transparent("white", fuzz = 30) %>%
-	# 	image_write(target)
-	
 }
 
 #' Iterate the rendering function over all 8 volcanoes:
