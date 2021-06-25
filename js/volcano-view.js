@@ -89,7 +89,7 @@
 			lname: 'virunga'			
 		});	
 
-		// create one WMS layer per volcano
+		// create one Tile WMS layer per volcano
 		var viewshedUrl = 'https://tomcat.oliverfritz.de/geoserver/volcano-view/wms'
 		var viewshedLayers = []
 		for(i = 0; i < volcanoes.names.length; i++) {
@@ -118,6 +118,7 @@
 		};
 		
 
+		/* create one WMS layer per volcano
 		var viewshedLayers = []
 		for(i = 0; i < volcanoes.names.length; i++) {
 			window[volcanoes.names[i].toLowerCase()] = new ol.layer.Image({
@@ -138,6 +139,8 @@
 			window[volcanoes.names[i].toLowerCase()].setVisible(false)
 			viewshedLayers.push(window[volcanoes.names[i].toLowerCase()])
 		};
+		*/
+
 
 		// mouseover interaction vector layer
 		var mouseOver = new ol.interaction.Select({
